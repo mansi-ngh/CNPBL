@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+.banner
+{
+    width: 100%;
+    height: 100vh;
+    
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(background.png);
+    
+    background-size: cover;
+    background-position: center;
+}
+.navbar
+{
+    width: 95%;
+    margin: auto;
+    padding: 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.ptfoliologo{
+    width:180px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.navbar ul li::after{
+    content:'';
+    height:3px;
+    width: 0;
+    background: orange;
+    position:absolute;
+    left: 0;
+    bottom: -10px;
+    transition:0.5s;
+}
+
+.navbar ul li:hover::after{
+    width:100%;
+    
+    
+}
+.content{
+    margin-left:8%;
+    margin-top:13%;
+    
+}
+
+.content h1{
+    font-size: 45px;
+    color: black;
+    margin-bottom: 20px;
+    
+}
+span{
+    font-family: cursive;
+    font-size: 65px;
+    color: orange;
+}
+
+.content p{
+    color: darkgray;
+    line-height: 22px;
+}
+
+.content a{
+    background: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+
+.images{
+    width: 45%;
+    height: 80%;
+    position:absolute;
+    bottom:0;
+    right: 100px;
+}
+
+.images img{
+    height: 90%;
+    position:absolute;
+    left:75%;
+    bottom:0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.bg{
+    width: 100%;
+    height: 100vh;
+    
+    background-image: url(background.png);
+    
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.hire{
+    
+   margin-left:8%;
+    margin-top:0;
+    
+}
+
+.hire h1{
+   
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+    
+}
+
+.hire span{
+    font-family:inherit;
+    font-size: 40px;
+    color: orange;
+}
+
+.hire p{
+    font-family: cursive;
+    background: whitesmoke;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    line-height: 30px;
+    display: inline-block;
+}
+.service{
+    
+   margin-left:10%;
+    margin-top: 2%;
+    
+}
+
+
+.service h1{
+    font-family: cursive;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.service p{
+    font-size: 30px;
+    background: whitesmoke;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: orange;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.about{
+    
+   margin-left:10%;
+    margin-top: 0%;
+    
+}
+
+
+.about h1{
+   margin-left:18%;    
+    font-size: 30px;
+    background: grey;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: orange;
+    line-height: 30px;
+    display: inline-block;
+
+}
+
+.about p{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkgray;
+    line-height: 30px;
+    
+}
+.about span{
+    font-family:monospace;
+    font-size: 20px;
+    color: black;
+}
+
+
+.cv ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.cv ul li a{
+    text-decoration: none;
+    color: orange;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+
+.cv ul li::after{
+    content:'';
+    height:3px;
+    width: 100%;
+    background: darkgrey;
+    position:absolute;
+    left: 0;
+    bottom: -3px;
+    
+}
+
+
+
+.cv{
+    
+   margin-left:10%;
+    margin-top: 0%;
+    
+}
+
+
+
+
+.cv p{
+    font-family:sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    line-height: 20px;
+    
+}
